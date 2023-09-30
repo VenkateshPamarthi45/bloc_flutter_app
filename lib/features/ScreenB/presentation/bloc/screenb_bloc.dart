@@ -7,7 +7,7 @@ part 'screenb_state.dart';
 class ScreenbBloc extends Bloc<ScreenbEvent, ScreenbState> {
   ScreenbBloc() : super(ScreenbInitial()) {
     on<ScreenbEvent>((event, emit) {
-      print(event);
+      print(event + "done");
     });
   }
 }
